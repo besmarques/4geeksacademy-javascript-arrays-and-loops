@@ -1,14 +1,13 @@
 var people = ['juan','ana','michelle','daniella','stefany','lucy','barak', 'emilio'];
 
 //your code below
-var newArray = people.filter(deletePerson);
+let newArray = people.filter(deletePerson); 
 
-function deletePerson(el){
-	return people != el;
-}
-
-people = newArray;
-
+function deletePerson(name){
+  
+return !name ;
+  
+} 
 
 console.log(deletePerson('daniella'));
 console.log(deletePerson('juan'));
